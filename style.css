@@ -140,6 +140,10 @@ header{
 }
 .services-vectors h1{
     font-size: 20px;
+    padding-top: 20px;
+}
+.services-vectors img{
+    padding-bottom: 10px;
 }
 .services-vectors p{
     font-size: 14px ;
@@ -147,8 +151,33 @@ header{
 .service{
     width: 25%;
     float: left;
-    padding: 0 0px;
+    padding: 20px 0px;
     text-align: center;
   
 }
+/*Socials section*/
+.socials{
+    margin: 0 auto;
+}
+.socials-text{
+    padding-top: 400px;
+    padding-left: 200px;
+}
+.socials-text h1{
+    font-size: 20px;
+}
+.socials-text p{
+    font-size: 14px;
+}
+.social-imga{
+    position: absolute;
+    left: 600px;
+    top: -300px;
+}
+.social-imgb{
+    position: absolute;
+    left: 900px;
+    top: -250px;
+}
+
 
