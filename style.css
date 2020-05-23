@@ -1,0 +1,150 @@
+
+/*general styling for the web body*/
+body{
+    font-family: Poppins;
+    
+}
+
+
+/*general styling for lists*/
+li{
+    list-style-type: none;
+}
+
+/*general styling for links*/
+a {
+    text-decoration: none;
+    display: block;
+  }
+
+/*general styling for header section*/
+header{
+    background-image: url(images/re.svg);
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+
+/* styling for navigation section*/
+.nav-bar{
+    width: 80%;
+    margin: 0 auto;
+}
+.nav-bar a{
+    color: black;
+}
+.nav-bar li{
+    float: left;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 27px;
+    color: black;
+}
+.nav-logo {
+    float: left;
+}
+.nav-logo li{
+    font-family: Poppins;
+    padding: 30px 10px;
+}
+.nav-list{
+    float: right;
+}
+.nav-list li{
+    padding: 30px 20px;
+    font-family: Poppins;
+}
+
+/* styling for logo section*/
+#logo{
+    font-family: 'Rammetto One', cursive;
+    color: white;
+    background-color: #C8C8C8;
+    padding: 12px 8px;
+    margin-top: 20px;
+    border-radius: 100%;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.25);   
+    font-size: 18px;
+    height: 50px;
+}
+
+/*general styling for contact us button section*/
+#nav-btn{
+    background-color: #9B9BCA;
+    border-radius: 10px;
+    color: white;
+    width: 150px;
+    text-align: center;
+
+}
+
+/*general styling for header section*/
+.header-content{
+    position: absolute;
+    margin: 15% 10% 0%;
+}
+
+/*styling for header h1 tag*/
+.main-heading{
+    width:50%;
+    font-size: 23px;
+    line-height: 50px;
+    color: #696A86;
+    font-family: 'DM Serif Display';
+    text-align: left;
+
+}
+
+/*general styling for header p tag*/
+.main-content{
+    width:70%;
+    font-family: 'Poppins';
+    text-align: left;
+    padding-top: 20px;
+}
+
+/*general styling for header get started button*/
+#header-btn{
+    background-color: #9B9BCA;
+    border-radius: 10px;
+    color: white;
+    height: 70px;
+    width: 220px;
+    padding-top: 20px;
+    margin-top:5px ;
+    text-align: center;
+}
+
+/*general styling for services section*/
+.services{
+    text-align: center;
+    
+}
+.services-content{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.services-content h1{
+    font-size: 20px;
+}
+.services-vectors{
+    padding-top: 50px;
+    padding-bottom: 100px;
+   
+}
+.services-vectors h1{
+    font-size: 20px;
+}
+.services-vectors p{
+    font-size: 14px ;
+}
+.service{
+    width: 25%;
+    float: left;
+    padding: 0 0px;
+    text-align: center;
+  
+}
+
