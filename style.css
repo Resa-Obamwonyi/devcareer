@@ -27,7 +27,7 @@ header{
 
 /* styling for navigation section*/
 .nav-bar{
-    width: 80%;
+    width: 88%;
     margin: 0 auto;
 }
 .nav-bar a{
@@ -46,7 +46,7 @@ header{
 }
 .nav-logo li{
     font-family: Poppins;
-    padding: 30px 10px;
+    padding: 30px;
 }
 .nav-list{
     float: right;
