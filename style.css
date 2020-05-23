@@ -247,7 +247,7 @@ header{
 }
 .img2{
     position: absolute;
-    top: 2300px;
+    top: 2250px;
     left: 550px;
     border-radius: 100%;
 }
@@ -300,6 +300,36 @@ header{
 }
 .img11{
     position: absolute;
-    top:2570px;
-    left:140px;
+    top:2575px;
+    left:1165px;
+}
+.img12{
+    position: absolute;
+    top:2575px;
+    left:1150px;
+}
+/* Question and Answers Section */
+.qna-texts{
+    width:50%;
+}
+.qna-img{
+    width:50%;
+}
+.qna-texts h1{
+    font-family: "PT Serif", serif;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 140%;
+    padding-top: 300px;
+}
+#imga{
+    position: absolute;
+    top:2750px;
+    left:484px;
+}
+#imgb{
+    position: absolute;
+    border-radius: 100%;
+    top:2750px;
+    left:484px;
 }
