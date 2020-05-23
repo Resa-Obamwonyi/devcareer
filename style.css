@@ -179,5 +179,53 @@ header{
     left: 900px;
     top: -250px;
 }
-
+.social-imgc{
+    position: absolute;
+    left: 500px;
+    top: -150px;
+}
+.social-imgd{
+    position: absolute;
+    left: 750px;
+    top: -130px;
+}
+.social-imgd p{
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    text-align: center;
+}
+.social-imge{
+    position: absolute;
+    left: 400px;
+    top: -50px;
+}
+.social-imgf{
+    position: absolute;
+    left: 650px;
+    top: 10px;
+}
+.social-imgg{
+    position: absolute;
+    left: 850px;
+    top: 30px;
+}
+#line1{
+    position: absolute;
+    left: 550px;
+    top: 300px;  
+}
+#line2{
+    position: absolute;
+    left: 750px;
+    top: 275px;
+}
+#line3{
+    position: absolute;
+    left: 900px;
+    top: 450px;
+}
 
