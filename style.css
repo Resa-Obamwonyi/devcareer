@@ -358,15 +358,23 @@ header{
     margin-bottom: 20px;
     height: 80px;
 }
-#imga{
+.man-large{
     position: absolute;
     top:2750px;
-    left:484px;
+    left:600px;
+    width: 600px;
+    height: 730px;
+    background: url(images/image\ 3.png);
 }
-#imgb{
+.grey-circle{
     position: absolute;
-    top:2750px;
-    left:550px;
+    top:2650px;
+    width: 1030px;
+    height: 1030px;
+    right: -415px;
+    background: rgba(245, 245, 255, 0.8);
+    border-bottom-left-radius:2060px;
+    border-top-left-radius:2060px;
 }
 .qna-img ul{
     position: absolute;
@@ -399,4 +407,103 @@ header{
     top:4300px;
     text-align: center;
 
+}
+/*Pink Circles Section*/
+.maxi-circle{
+    background-color: #FFEDEF;
+    position:absolute;
+    width: 1030px;
+    height: 1030px;
+    left: -515px;
+    top: 4500px;
+    border-radius: 100%;
+}
+.big-circle{
+    background-color: #FFEDEF;
+    position: absolute;
+    width: 88px;
+    height: 88px;
+    left: 695px;
+    top: 5100px;
+    border-radius: 100%;
+}
+.big-circle-two{
+    background-color: #FFEDEF;
+    position: absolute;
+    width: 88px;
+    height: 88px;
+    left: 780px;
+    top: 5550px;
+    border-radius: 100%;
+}
+.medium-circle{
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 577px;
+    top: 5200px;
+    background: #FFEDEF;
+    border-radius: 100%;
+}
+.medium-circle-two{
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 660px;
+    top: 5500px;
+    background: #FFEDEF;
+    border-radius: 100%;
+}
+.small-circle{
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    left: 522px;
+    top: 5282px;
+    background: #FFEDEF;
+    border-radius: 100%;
+}
+.small-circle-two{
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    left: 522px;
+    top: 5432px;
+    background: #FFEDEF;
+    border-radius: 100%;
+}
+/*Girl Images*/
+.girl-large{
+    position: absolute;
+    width: 720px;
+    height: 920px;
+    left: 10px;
+    top: 5000px;
+    background: url(images/image\ 5\ copy\ 1.png);
+}
+/*Card Section*/
+.card-section{
+    width:25%;
+}
+.card-one{
+position: absolute;
+width: 442px;
+height: 445px;
+left: 114px;
+top: 4520px;
+background: #FFFFFF;
+box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.1);
+border-radius: 10px;
+text-align: center;
+}
+.card-two{
+position: absolute;
+width: 442px;
+height: 445px;
+left: 645px;
+top: 4520px;
+background: #FFFFFF;
+box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.1);
+border-radius: 10px;
+text-align: center;
 }
