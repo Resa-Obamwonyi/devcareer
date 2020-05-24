@@ -485,25 +485,55 @@ header{
 .card-section{
     width:25%;
 }
+.card-section h1{
+    font-size: 20px;
+    padding-top:20px;
+    padding-bottom: 10px;
+}
+.card-section p{
+    font-size: 15px;
+}
+.card-one button{
+    position: absolute;
+    width: 234px;
+    height: 60px;
+    left: 90px;
+    top:410px;
+    background:#9595C9;
+    border-radius: 10px;
+    color: white;
+}
+.card-two button{
+    position: absolute;
+    width: 234px;
+    height: 60px;
+    left: 90px;
+    top:410px;
+    background: #F01F35;
+    border-radius: 10px;
+    color: white;
+}
 .card-one{
-position: absolute;
-width: 442px;
-height: 445px;
-left: 114px;
-top: 4520px;
-background: #FFFFFF;
-box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.1);
-border-radius: 10px;
-text-align: center;
+    position: absolute;
+    width: 400px;
+    height: 445px;
+    left: 164px;
+    top: 4520px;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+    padding:30px;
 }
 .card-two{
-position: absolute;
-width: 442px;
-height: 445px;
-left: 645px;
-top: 4520px;
-background: #FFFFFF;
-box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.1);
-border-radius: 10px;
-text-align: center;
+    position: absolute;
+    width: 400px;
+    height: 445px;
+    left: 695px;
+    top: 4520px;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+    padding:30px;
 }
