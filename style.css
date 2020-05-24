@@ -578,3 +578,27 @@ header{
     left:100px ;
     top: 180px;
 }
+/*Pre Form Header*/
+.pre-form{
+    font-size: 20px;
+    width: 35%;
+    position: absolute;
+    width: 550px;
+    height: 200px;
+    left: 243px;
+    top: 5943px;
+    font-family: "PT Serif", serif;
+    line-height: 140%;
+}
+/*Form Section*/
+.form-section{
+    position: absolute;
+    width: 508px;
+    height: 366px;
+    left: 400px;
+    top: 6155px; 
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(149, 149, 201, 0.4);
+    border-radius: 10px;
+    margin-bottom: 200px;
+}
