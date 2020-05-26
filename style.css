@@ -178,22 +178,22 @@ header{
 .social-imga{
     position: absolute;
     left: 600px;
-    top: -300px;
+    top: -320px;
 }
 .social-imgb{
     position: absolute;
-    left: 900px;
-    top: -250px;
+    left: 910px;
+    top: -270px;
 }
 .social-imgc{
     position: absolute;
-    left: 500px;
-    top: -150px;
+    left: 510px;
+    top: -180px;
 }
 .social-imgd{
     position: absolute;
-    left: 750px;
-    top: -130px;
+    left: 760px;
+    top: -170px;
 }
 .social-imgd p{
     position: absolute;
@@ -206,13 +206,13 @@ header{
 }
 .social-imge{
     position: absolute;
-    left: 400px;
+    left: 420px;
     top: -50px;
 }
 .social-imgf{
     position: absolute;
-    left: 650px;
-    top: 10px;
+    left: 660px;
+    top: -10px;
 }
 .social-imgg{
     position: absolute;
@@ -375,12 +375,13 @@ header{
     position: absolute;
     top:2650px;
     width: 700px;
-    height: 930px;
+    height:800px;
     right: 0px;
     background: rgba(245, 245, 255, 0.8);
     border-bottom-left-radius:2060px;
     border-top-left-radius:2060px;
     overflow: hidden !important;
+    margin-top: 100px;
 }
 .qna-img ul{
     position: absolute;
@@ -649,4 +650,16 @@ header{
 .signup-text span{
     color: red;
     font-weight: 300;
+}
+/*Footer Section*/
+.footer-section {
+    background-image: url(images/Ellipse\ 22.png);
+    background-repeat: none;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 7853px;
+    
 }
