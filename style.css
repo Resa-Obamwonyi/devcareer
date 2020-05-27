@@ -677,12 +677,12 @@ header{
         display:none;
     }
     .header-content{
-        margin:0px 50px 0px 30px;
+        margin:50px 50px 0px 30px;
     }
     /*styling for header h1 tag*/
     .header-content h1{
         width:50%;
-        font-size: 50px;
+        font-size: 40px;
         padding-top: 80px;
     }
     /*general styling for header p tag*/
