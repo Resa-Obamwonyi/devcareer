@@ -663,3 +663,21 @@ header{
     top: 7853px;
     
 }
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+    .nav-list{
+        display:none;
+    }
+    .header-content{
+        margin:0px 50px;
+    }
+    .header-content h1{
+        font-size: 50px;
+        padding-top: 80px;
+    }
+    .header-content p{
+        font-size: 10px;
+        line-height: normal;
+    }
+}
