@@ -668,18 +668,30 @@ header{
 
 /* All Mobile Sizes (devices and browser) */
 @media only screen and (max-width: 767px) {
+    .nav-bar{
+        width: 100%;
+        margin: 0 auto;
+    }
     .nav-list{
         display:none;
     }
     .header-content{
-        margin:0px 50px;
+        margin:0px 50px 0px 20px;
     }
+    /*styling for header h1 tag*/
     .header-content h1{
+        width:50%;
         font-size: 50px;
         padding-top: 80px;
     }
+    /*general styling for header p tag*/
+    .main-content{
+    width:100%; 
+    padding-top: 20px;
+}
+
     .header-content p{
-        font-size: 10px;
+        font-size: 12px;
         line-height: normal;
         text-align: justify;
     }
