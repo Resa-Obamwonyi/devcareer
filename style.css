@@ -668,9 +668,7 @@ header{
 
 /* All Mobile Sizes (devices and browser) */
 @media only screen and (max-width: 767px) {
-    html body{
-     
-    }
+    
     .nav-bar{
         width: 100%;
         margin: 0 auto;
