@@ -904,10 +904,9 @@ footer{
     font-family: Poppins;
 }
  
-    footer{
+    .footer{
         display: none;
     }
-
 }
 /* Tablet Portrait size to standard 960 (devices and browsers) */
 @media only screen and (min-width: 768px) and (max-width: 999px) {
@@ -1109,7 +1108,7 @@ footer{
     font-family: Poppins;
 }
  
-footer{
+.footer{
     display: none;
 }
  
