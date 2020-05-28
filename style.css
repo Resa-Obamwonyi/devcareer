@@ -655,18 +655,24 @@ header{
 }
 /*Footer Section*/
 footer{
-    background-image: url(images/Ellipse\ 22.png);
-    background-repeat: none;
-    background-size: cover;
+    /*
+    background-color:#9B9BCA;
+    height: 490px;
     font-family: Poppins;
     position: absolute;
     left: 0px;
     top: 6700px;
-    
+    */
+}
+.footer-area{
+    position: absolute;
+    left: 0px;
+    top: 6700px;
+    background-color:#9B9BCA;
 }
 .footer-section{
     margin: 20% 20% 10% 30%;
-    color: white;
+    color: black;
 }
 .foot {
     float:left;
@@ -678,18 +684,19 @@ footer{
 }
 .lower-section{
      margin-top:20px;
-    float: left;
 }
 .copyright{
     margin-top:20px;
 }
 .footer-icons{
-    float: left;
+    margin-top:20px;
     background-color: white;
+    display: inline-block;
 }
 .footer-logo{
-    float: right;
+    display: inline-block;
 }
+
 #foot-logo{
     font-family: 'Rammetto One', cursive;
     color: white;
