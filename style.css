@@ -773,7 +773,7 @@ header{
     .mid-btn{ 
     position: absolute;
     top:3500px;
-    left:60px;
+    left:80px;
     background-color: #9B9BCA;
     border-radius: 10px;
     color: white;
@@ -787,8 +787,9 @@ header{
     .title{
         position: absolute;
         top:3700px;
-        text-align: center;
         width: 80%;
+        margin-left:10%;
+        margin-right:10%;
     
     }
     .side-heading{
@@ -805,13 +806,14 @@ header{
     }
     .pre-form{   
         font-size: 20px;
-        width: 100%;
+        width: 80%;
         position: absolute;
         left: 0px;
         top: 3950px;
         font-family: "PT Serif", serif;
         line-height: 140%;
-        padding-left:50px;
+        margin-left:10%;
+        margin-right:10%;
         
     }
     
@@ -826,7 +828,8 @@ header{
     box-shadow: 0px 20px 40px rgba(149, 149, 201, 0.4);
     border-radius: 10px;
     margin-bottom: 200px;
-    margin-left:50px;
+    margin-left:10%;
+    margin-right:10%;
 }
     .form-section input{
     border: 2px solid #9595C9;
