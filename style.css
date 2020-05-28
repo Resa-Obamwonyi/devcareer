@@ -833,6 +833,213 @@ header{
     box-sizing: border-box;
     box-shadow: 0px 20px 40px rgba(149, 149, 201, 0.2);
     border-radius: 10px;
+    width: 70%;
+    height: 60px;
+    margin:10px 50px;
+}
+    .form-section label{
+    width: 100%;
+    height: 38px;
+    font-family: Poppins;
+    font-size: 13px;
+    line-height: 40px;
+    padding: 20px 0px 0px 50px;
+}
+    .form-section button{
+    position: absolute;
+    width: 60%;
+    height: 60px;
+    left: 62px;
+    top: 280px;  
+    background: #9595C9;
+    border-radius: 5px;
+    color: white;
+    margin: 0 auto;
+}
+    .signup-text{
+    position: absolute;
+    width: 60%;
+    height: 60px;
+    left: 50px;
+    top: 360px;  
+    font-family: Poppins;
+}
+ 
+    .footer-section{
+    position: absolute;
+    left: 0px;
+    top: 4653px;
+    }
+
+}
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 999px) {
+    
+    .nav-bar{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .nav-list{
+        display:none;
+    }
+    .header-content{
+        margin:50px 50px 0px 30px;
+    }
+    /*styling for header h1 tag*/
+    .header-content h1{
+        width:100%;
+        font-size: 50px;
+        padding-top: 100px;
+    }
+    /*general styling for header p tag*/
+    .main-content{
+    width:80%; 
+    padding-top: 20px;
+}
+
+    .header-content p{
+        font-size: 16px;
+        line-height: normal;
+        text-align: justify;
+    }
+    .services-content{
+        text-align: center;
+        width: 80%;
+        padding-top: 100px;
+        padding-bottom: 25px;
+    }
+    .socials{
+        padding-bottom: 10px;
+    }
+    .socials-text{
+        padding-top: 100px !important;
+        padding-left: 20px;
+    }
+    .socials-text h1,p{
+        text-align: center ;
+    }
+    .socials-text h1{
+        padding-top: 100px;
+    }
+    .socials-img{
+        display: none;
+    }
+    .lines{
+        display: none;
+    }
+    .demo{
+        display: none;
+    }
+    .demo-vid{
+        display: none;
+    }
+    .qna-img{
+        display: none;
+    }
+    .qna-texts h1{
+        font-family: "PT Serif", serif;
+        font-style: normal;
+        font-size: 20px;
+        line-height: 140%;
+        padding-top: 50px;
+        margin-left: 20px;
+    }
+    .qna-texts li{
+        font-size: 15px;
+        padding:40px 10px 20px 10px !important;
+        background: #FFFFFF;
+        box-shadow: 0px 5px 10px #E0E0E0;
+        border-radius: 23px;
+        width:80% !important;
+    }
+    
+    .qna-texts p{
+        font-size: 15px;
+        background: #F5F5FF;
+        box-shadow: 0px 25px 59px rgba(191, 191, 236, 0.72);
+        border-radius: 10px;
+        padding:20px 10px 20px 10px !important;
+        width:80% !important;
+        margin-left: 35px;
+        margin-bottom:100px;
+    }
+    .qna-texts ul{
+        margin-top: 20px;
+    }
+    .qna li{
+        font-size: 15px;
+        padding:20px 10px 20px 10px !important;
+        background: #FFFFFF;
+        box-shadow: 0px 5px 10px #E0E0E0;
+        border-radius: 23px;
+        width:80% !important;
+        margin-bottom: 20px;
+        height: auto;
+    }
+    /*button section*/
+    .mid-btn{ 
+    position: absolute;
+    top:2600px;
+    left:100px;
+    background-color: #9B9BCA;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    padding:20px 10px 20px 10px !important;
+    width:60% !important;
+    }
+    .card-section{
+        display: none;
+    }
+    .title{
+        position: absolute;
+        top:2750px;
+        text-align: center;
+        width: 80%;
+    
+    }
+    .side-heading{
+        display: none;
+    }
+    .side-card{
+        display: none;
+    }
+    .pink-circles{
+        display: none;
+    }
+    .girl-images{
+        display: none;
+    }
+    .pre-form{   
+        font-size: 20px;
+        width: 100%;
+        position: absolute;
+        left: 20px;
+        top: 2950px;
+        font-family: "PT Serif", serif;
+        line-height: 140%;
+        padding-left:50px;
+        
+    }
+    
+    /*Form Section*/
+    .form-section{
+    position: absolute;
+    width: 80%;
+    height: 466px;
+    top: 3100px; 
+    left:20px;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(149, 149, 201, 0.4);
+    border-radius: 10px;
+    margin-bottom: 200px;
+    margin-left:50px;
+}
+    .form-section input{
+    border: 2px solid #9595C9;
+    box-sizing: border-box;
+    box-shadow: 0px 20px 40px rgba(149, 149, 201, 0.2);
+    border-radius: 10px;
     width: 60%;
     height: 60px;
     margin:20px 50px;
@@ -868,7 +1075,7 @@ header{
     .footer-section{
     position: absolute;
     left: 0px;
-    top: 4653px;
+    top: 3653px;
     }
-
+ 
 }
