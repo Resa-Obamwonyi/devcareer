@@ -654,16 +654,52 @@ header{
     font-weight: 300;
 }
 /*Footer Section*/
-.footer-section {
+footer{
     background-image: url(images/Ellipse\ 22.png);
     background-repeat: none;
     background-size: cover;
+    font-family: Poppins;
     position: absolute;
-    width: 100%;
-    height: 100%;
     left: 0px;
-    top: 7853px;
+    top: 6700px;
     
+}
+.footer-section{
+    margin: 20% 20% 10% 30%;
+    color: white;
+}
+.foot {
+    float:left;
+    padding-right: 30px;
+}
+.foot h4{
+    font-size: 20px;
+    font-weight: 600;
+}
+.lower-section{
+     margin-top:20px;
+    float: left;
+}
+.copyright{
+    margin-top:20px;
+}
+.footer-icons{
+    float: left;
+    background-color: white;
+}
+.footer-logo{
+    float: right;
+}
+#foot-logo{
+    font-family: 'Rammetto One', cursive;
+    color: white;
+    background-color: #C8C8C8;
+    padding: 12px 8px;
+    margin-top: 20px;
+    border-radius: 100%;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.25);   
+    font-size: 18px;
+    width: 55px;
 }
 
 /* All Mobile Sizes (devices and browser) */
@@ -869,9 +905,7 @@ header{
 }
  
     .footer-section{
-    position: absolute;
-    left: 0px;
-    top: 4653px;
+    
     }
 
 }
@@ -1076,9 +1110,7 @@ header{
 }
  
     .footer-section{
-    position: absolute;
-    left: 0px;
-    top: 3653px;
+    
     }
  
 }
