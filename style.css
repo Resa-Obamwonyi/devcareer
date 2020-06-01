@@ -28,7 +28,7 @@ header{
     background-image: url(images/Rectangle\ 2.png);
     background-size: cover;
     width: 100%;
-    height: 600px;
+    height: 650px;
 }
 
 /* styling for navigation section*/
@@ -569,6 +569,7 @@ header{
     background: #9595C9;
     border-radius: 5px;
     color: white;
+    border: hidden;
 }
 .signup-text{
     position: absolute;
