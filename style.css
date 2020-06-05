@@ -292,9 +292,17 @@ header{
     height: 80px;
     color: #402B2B;
 }
+.icon {
+    position: absolute;
+    left: 480px;
+}
+.iconb {
+    position: absolute;
+    left: 400px;
+}
 .man-large{
     position: absolute;
-    top:2750px;
+    top:2850px;
     left:600px;
     width: 600px;
     height: 730px;
@@ -534,14 +542,15 @@ header{
 /*Form Section*/
 .form-section{
     position: absolute;
-    width: 508px;
-    height: 466px;
-    left: 400px;
+    width: 608px;
+    height: 500px;
+    left: 350px;
     top: 6155px; 
     background: #FFFFFF;
     box-shadow: 0px 20px 40px rgba(149, 149, 201, 0.4);
     border-radius: 10px;
     margin-bottom: 200px;
+    padding-top: 50px;
 }
 .form-section input{
     border: 2px solid #9595C9;
@@ -550,7 +559,9 @@ header{
     border-radius: 10px;
     width: 400px;
     height: 60px;
-    margin:20px 50px;
+    margin:20px 100px;
+    padding-left: 20px;
+    color: #626780;
 }
 .form-section label{
     width: 95px;
@@ -558,14 +569,14 @@ header{
     font-family: Poppins;
     font-size: 13px;
     line-height: 40px;
-    padding: 20px 0px 0px 50px;
+    padding: 10px 0px 0px 100px;
 }
 .form-section button{
     position: absolute;
     width: 220px;
     height: 60px;
-    left: 50px;
-    top: 300px;  
+    left: 100px;
+    top: 350px;  
     background: #9595C9;
     border-radius: 5px;
     color: white;
@@ -574,8 +585,8 @@ header{
 .signup-text{
     position: absolute;
     height: 60px;
-    left: 50px;
-    top: 380px;  
+    left: 100px;
+    top: 430px;  
     font-family: Poppins;
 }
 .signup-text span{
@@ -583,61 +594,88 @@ header{
     font-weight: 300;
 }
 /*Footer Section*/
-footer{
-    /*
-    background-color:#9B9BCA;
-    height: 490px;
-    font-family: Poppins;
-    position: absolute;
-    left: 0px;
-    top: 6700px;
-    */
-}
+
 .footer-area{
-    position: absolute;
-    left: 0px;
-    top: 6700px;
-    background-color:#9B9BCA;
+   position: absolute;
+   top:6700px;
+   width:100%;
+   display: inline-block;
+   background-color:#9B9BCA !important;
+
 }
 .footer-section{
-    margin: 20% 20% 10% 30%;
-    color: black;
+    width: 100%;
+    margin: auto 20%;
 }
-.foot {
+.foot{
     float:left;
-    padding-right: 30px;
+    padding-top: 100px;
+    padding-right: ;
+    width: 15%;
+
 }
 .foot h4{
     font-size: 20px;
     font-weight: 600;
 }
 .lower-section{
-     margin-top:20px;
+    background-color:#9B9BCA;
+    position: absolute;
+    top:-100px;
+    width:100%;
 }
 .copyright{
-    margin-top:20px;
+    position: absolute;
+    top:500px;
+    left:100px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+}
+.icons{
+    position: absolute;
+    top:500px;
+    left:500px;
 }
 .footer-icons{
-    margin-top:20px;
     background-color: white;
     display: inline-block;
+    color:#9595C9 !important;
+    padding-right: 10px;
+    background: #FFFFFF;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+
 }
 .footer-logo{
+    position: absolute;
+    top:500px;
+    left:1000px;
+}
+.footer-logo a{
     display: inline-block;
 }
-
 #foot-logo{
-    font-family: 'Rammetto One', cursive;
-    color: white;
-    background-color: #C8C8C8;
-    padding: 12px 8px;
-    margin-top: 20px;
-    border-radius: 100%;
-    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.25);   
+    font-family: Rammetto One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 34px;
     font-size: 18px;
     width: 55px;
 }
-
+#foot-text{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+}
 /* All Mobile Sizes (devices and browser) */
 @media only screen and (max-width: 767px) {
     
