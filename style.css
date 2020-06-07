@@ -598,9 +598,12 @@ header{
 .footer-area{
    position: absolute;
    top:6700px;
-   width:100%;
+   width:1300px;
    display: inline-block;
    background-color:#9B9BCA !important;
+   height: 650px;
+   border-top-right-radius:1300px;
+   border-top-left-radius:1300px;
 
 }
 .footer-section{
@@ -609,20 +612,22 @@ header{
 }
 .foot{
     float:left;
-    padding-top: 100px;
-    padding-right: ;
+    padding-top: 250px;
     width: 15%;
+    color: white;
 
 }
 .foot h4{
     font-size: 20px;
     font-weight: 600;
+    color: white;
 }
 .lower-section{
     background-color:#9B9BCA;
     position: absolute;
-    top:-100px;
+    top:80px;
     width:100%;
+    color: white;
 }
 .copyright{
     position: absolute;
@@ -635,6 +640,7 @@ header{
     line-height: 30px;
     display: flex;
     align-items: center;
+    color: white;
 }
 .icons{
     position: absolute;
@@ -645,11 +651,11 @@ header{
     background-color: white;
     display: inline-block;
     color:#9595C9 !important;
-    padding-right: 10px;
-    background: #FFFFFF;
+    padding: 5px 10px 10px;
     width: 36px;
     height: 36px;
     border-radius: 50%;
+    text-align: center;
 
 }
 .footer-logo{
