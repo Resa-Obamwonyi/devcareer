@@ -70,6 +70,9 @@ header{
     text-decoration: none;
     
 }
+.toggle-list{
+    display: none;
+}
 /* styling for logo section*/
 #logo{
     position: absolute;
@@ -692,6 +695,30 @@ header{
     .nav-list{
         display:none;
     }
+    .nav-logo{
+        margin-left: 10px;
+    }
+        /* styling for logo section*/
+#logo{
+    position: absolute;
+    width: 72px;
+    height: 72px;
+    left: 0px;
+    top: -20px;
+}
+#dream{
+    position: absolute;
+    width: 126px;
+    height: 26px;
+    left: 80px;
+    top: 0px; 
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    /* identical to box height */
+}
     .header-content{
         margin:50px 50px 0px 30px;
     }
@@ -719,18 +746,9 @@ header{
         padding-bottom: 25px;
     }
     .socials{
-        padding-bottom: 10px;
+        display: none;
     }
-    .socials-text{
-        padding-top: 50px;
-        padding-left: 20px;
-    }
-    .socials-text h1,p{
-        text-align: center;
-    }
-    .socials-text h1{
-        padding-top: 100px;
-    }
+    
     .socials-img{
         display: none;
     }
@@ -751,7 +769,9 @@ header{
         font-style: normal;
         font-size: 20px;
         line-height: 140%;
-        padding-top: 50px;
+        padding-bottom: 20px;
+        margin-left: 35px;
+        text-align: left;
     }
     .qna-texts li{
         font-size: 15px;
@@ -770,26 +790,25 @@ header{
         padding:20px 10px 20px 10px !important;
         width:80% !important;
         margin-left: 35px;
-        margin-bottom:100px;
+        margin-bottom:50px;
     }
     .qna-texts ul{
         margin-top: 70px;
     }
     .qna li{
         font-size: 15px;
-        padding:20px 10px 20px 10px !important;
+        padding:20px 40px 20px 10px !important;
         background: #FFFFFF;
         box-shadow: 0px 5px 10px #E0E0E0;
         border-radius: 23px;
         width:80% !important;
-        margin-bottom: 20px;
         height: auto;
     }
     /*button section*/
     .mid-btn{ 
     position: absolute;
-    top:3500px;
-    left:80px;
+    top:3300px;
+    left:60px;
     background-color: #9B9BCA;
     border-radius: 10px;
     color: white;
@@ -797,15 +816,20 @@ header{
     padding:20px 10px 20px 10px !important;
     width:60% !important;
     }
+    .icon {
+        position: absolute;
+        left: 250px;
+    }
     .card-section{
         display: none;
     }
     .title{
         position: absolute;
-        top:3700px;
+        top:3450px;
+        left:30px;
         width: 80%;
-        margin-left:10%;
-        margin-right:10%;
+        margin: 0 auto;
+        
     
     }
     .side-heading{
@@ -825,7 +849,7 @@ header{
         width: 80%;
         position: absolute;
         left: 0px;
-        top: 3950px;
+        top: 3750px;
         font-family: "PT Serif", serif;
         line-height: 140%;
         margin-left:10%;
@@ -837,8 +861,8 @@ header{
     .form-section{
     position: absolute;
     width: 80%;
-    height: 466px;
-    top: 4200px; 
+    height: 550px;
+    top: 4000px; 
     left:0px;
     background: #FFFFFF;
     box-shadow: 0px 20px 40px rgba(149, 149, 201, 0.4);
@@ -869,7 +893,7 @@ header{
     width: 60%;
     height: 60px;
     left: 62px;
-    top: 280px;  
+    top: 330px;  
     background: #9595C9;
     border-radius: 5px;
     color: white;
@@ -880,13 +904,99 @@ header{
     width: 60%;
     height: 60px;
     left: 50px;
-    top: 360px;  
+    top: 430px;  
     font-family: Poppins;
 }
  
-    .footer{
-        display: none;
-    }
+    /*Footer Section*/
+
+.footer-area{
+    position: absolute;
+    top:4600px;
+    width:100%;
+    display: inline-block;
+    background-color:#9B9BCA !important;
+    height: 1000px;
+    border-top-right-radius:1300px;
+    border-top-left-radius:1300px;
+ 
+ }
+ .footer-section{
+     width: 100%;
+     margin: 100px 5%;
+ }
+ .foot{
+     float:none ;
+     padding-top: 20px;
+     width: 80%;
+     color: white;
+ 
+ }
+ .foot h4{
+     font-size: 20px;
+     font-weight: 600;
+     color: white;
+ }
+ .lower-section{
+     background-color:#9B9BCA;
+     position: absolute;
+     top:80px;
+     width:100%;
+     color: white;
+ }
+ .copyright{
+     position: absolute;
+     top:880px;
+     left:40px;
+     font-family: Rubik;
+     font-style: normal;
+     font-weight: 300;
+     font-size: 16px;
+     line-height: 30px;
+     display: flex;
+     align-items: center;
+     color: white;
+ }
+ .icons{
+     position: absolute;
+     top:820px;
+     left:0px;
+ }
+ .footer-icons{
+     background-color: white;
+     display: inline-block;
+     color:#9595C9 !important;
+     padding: 5px 10px 10px;
+     width: 36px;
+     height: 36px;
+     border-radius: 50%;
+     text-align: center;
+ 
+ }
+ .footer-logo{
+     position: absolute;
+     top:760px;
+     left:40px;
+ }
+ .footer-logo a{
+     display: inline-block;
+ }
+ #foot-logo{
+     font-family: Rammetto One;
+     font-style: normal;
+     font-weight: normal;
+     font-size: 20px;
+     line-height: 34px;
+     font-size: 18px;
+     width: 55px;
+ }
+ #foot-text{
+     font-family: Roboto;
+     font-style: normal;
+     font-weight: normal;
+     font-size: 22px;
+     line-height: 26px;
+ }
 }
 /* Tablet Portrait size to standard 960 (devices and browsers) */
 @media only screen and (min-width: 768px) and (max-width: 999px) {
