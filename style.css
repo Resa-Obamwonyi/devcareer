@@ -22,7 +22,9 @@ a {
     text-decoration: none;
     display: block;
   }
-
+a:hover{
+    color: white !important;
+}
 /*general styling for header section*/
 header{
     background-image: url(images/Rectangle\ 2.png);
@@ -699,26 +701,36 @@ header{
         margin-left: 10px;
     }
         /* styling for logo section*/
-#logo{
-    position: absolute;
-    width: 72px;
-    height: 72px;
-    left: 0px;
-    top: -20px;
-}
-#dream{
-    position: absolute;
-    width: 126px;
-    height: 26px;
-    left: 80px;
-    top: 0px; 
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 22px;
-    line-height: 26px;
-    /* identical to box height */
-}
+    #logo{
+        position: absolute;
+        width: 72px;
+        height: 72px;
+        left: 0px;
+        top: -20px;
+    }
+    #dream{
+        position: absolute;
+        width: 126px;
+        height: 26px;
+        left: 80px;
+        top: 0px; 
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px;
+        line-height: 26px;
+        /* identical to box height */
+    }
+    .toggle {
+        display: inline-block;
+        float: right;
+        font-size:50px;
+        padding-right: 20px;
+    }
+    .toggle-list{
+        display:none;
+    }
+
     .header-content{
         margin:50px 50px 0px 30px;
     }
