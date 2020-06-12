@@ -724,8 +724,9 @@ header{
     .toggle {
         display: inline-block;
         float: right;
-        font-size:50px;
+        font-size:30px;
         padding-right: 20px;
+        padding-top:20px;
     }
     .toggle-list{
         display:none;
