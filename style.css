@@ -74,6 +74,7 @@ header{
 }
 .toggle-list{
     display: none;
+
 }
 /* styling for logo section*/
 #logo{
@@ -111,9 +112,8 @@ header{
 
 /*general styling for header section*/
 .header-content{
-    position: absolute;
-    margin: 15% 10% 0%;
-}
+   
+    }
 
 /*styling for header h1 tag*/
 .main-heading{
@@ -126,6 +126,8 @@ header{
 }
 .main-heading h1{
     font-size: 60px;
+    padding-top: 200px;
+    padding-left: 120px;
 
 }
 
@@ -135,6 +137,7 @@ header{
     font-family: 'Poppins';
     text-align: left;
     padding-top: 18px;
+    padding-left: 120px;
 }
 
 /*general styling for header get started button*/
@@ -147,6 +150,7 @@ header{
     margin-top:5px ;
     text-align: center;
     border: hidden;
+    margin-left: 120px;
 }
 
 /*general styling for services section*/
@@ -694,13 +698,14 @@ header{
         width: 100%;
         margin: 0 auto;
     }
-    .nav-list{
-        display:none;
-    }
     .nav-logo{
         margin-left: 10px;
     }
+    .nav-list{
+        display: none;
+    }
         /* styling for logo section*/
+    
     #logo{
         position: absolute;
         width: 72px;
@@ -721,37 +726,81 @@ header{
         line-height: 26px;
         /* identical to box height */
     }
+
     .toggle {
-        display: inline-block;
+        display: block;
         float: right;
         font-size:30px;
         padding-right: 20px;
         padding-top:20px;
+        cursor: pointer;
     }
     .toggle-list{
-        display:none;
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: calc(100vh - 50px);
+        background: #9595C9;
+        top: 60px;
+        left: -100%;
+        transition: 0.5s;
+        padding: 50px;
+    }
+    .toggle-list.active{
+        left:0;
+    }
+    .toggle-list ul{
+        display: block;
+        text-align: center;
+    }
+    .toggle-list li{
+        float: none;
+        font-size: 20px;
+    }
+    .toggle-list ul li a{
+        border-bottom: 1px solid #fff;
+        padding:30px 50px;
+        color: #fff;
     }
 
+
     .header-content{
-        margin:50px 50px 0px 30px;
+        margin:0px 50px 0px 30px;
     }
     /*styling for header h1 tag*/
     .header-content h1{
         width:50%;
         font-size: 40px;
-        padding-top: 80px;
+        padding-top: 100px;
+        padding-left: 0px;
     }
     /*general styling for header p tag*/
     .main-content{
-    width:100%; 
-    padding-top: 20px;
+        width:100%; 
+        padding-top: 20px;
+        padding-left: 0px;
 }
 
     .header-content p{
-        font-size: 12px;
+        font-size: 10px;
         line-height: normal;
         text-align: justify;
+        padding-left: 0px;
     }
+
+/*general styling for header get started button*/
+    #header-btn{
+        background-color: #9B9BCA;
+        border-radius: 10px;
+        color: white;
+        height: 70px;
+        width: 220px;
+        margin-top:5px ;
+        text-align: center;
+        border: hidden;
+        margin-left: 0px;
+    }
+
     .services-content{
         text-align: center;
         width: 80%;
