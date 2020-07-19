@@ -763,7 +763,9 @@ header{
         color: #fff;
     }
 
-
+    .main-heading {
+        padding-top: 50px;
+    }
     .header-content{
         margin:0px 50px 0px 30px;
     }
